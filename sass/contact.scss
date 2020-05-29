@@ -1,0 +1,93 @@
+
+.contacts {
+    padding: 5rem 0;
+    grid-column: col-start 1 / col-end;
+
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+}
+
+.form-container {
+grid-column: 2 / span 6;
+   box-shadow: -.7rem -.7rem 1.7rem rgba(255,255,255, 1),
+                .7rem .7rem 1.7rem rgba(0,0,0, .1);
+    padding: 1rem;
+    border-radius: 2rem;
+
+}
+
+.form {
+    width: 70rem;
+
+    display: flex;
+    flex-direction: column;
+    padding: 5rem;
+    margin: 0 auto;
+
+
+    &__name {
+        width: 100%;
+        border: none;
+        padding: 1rem 5rem 1rem 1rem;
+        border-radius: 1rem;
+        outline: none;
+       
+    }
+
+    &__email {
+        width: 100%;
+        border: none;
+        border-radius: 1rem;
+        outline: none;
+        padding: 1rem 5rem 1rem 1rem;
+    }
+
+    &__text-area {
+        width: 100%;
+        padding : 1rem;
+        outline: none;
+        border: none;
+        border-radius: 1rem;
+    }
+
+}
+
+.form > *:not(:last-child) {
+    margin-bottom: 2rem;
+}
+
+.submit {
+    font-size: 1.6rem;
+    text-transform: capitalize;
+    color: #28e9ef;
+    width: 10rem;
+    padding: 3rem 3rem;
+    margin: 0 auto;
+    border: none;
+    border-radius: 50%;
+    outline: none;
+    background-color: #ebf5fc;
+    box-shadow: -.7rem -.7rem 1.7rem rgba(255,255,255, 1),
+   .7rem .7rem 1.7rem rgba(0,0,0, .1);
+
+}
+
+.submit:hover {
+    cursor: pointer;
+}
+
+.contact-me {
+    font-size: 2rem;
+    font-weight: 100;
+    text-transform: uppercase;
+    color: #28e9ef;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.send-icon {
+    width: 4rem;
+    height: 4rem;
+    fill: #28e9ef;
+    //transform: translateX(-.5rem);
+}

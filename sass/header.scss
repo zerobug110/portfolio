@@ -1,0 +1,31 @@
+.header {
+    background-image: linear-gradient(rgba(17,36,160, .5), rgba(39,59,190, .5)), url(../images/audi-r8-4721217_1280.jpg);
+    background-size: cover;
+    background-position: top;
+    grid-column: full-start 1 / full-end;
+}
+
+.nav {
+    font-size: 1.6rem;
+    width: 100%;
+    height: 10rem;
+    padding: 0 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+    &__item {
+        width: 40rem;
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+        padding: 2.5rem 0;
+    }
+
+    &__link {
+        text-decoration: none;
+        color: #fff;
+        text-transform: capitalize;
+    }
+    
+}
