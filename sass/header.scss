@@ -6,13 +6,16 @@
 }
 
 .nav {
+    background-color:  #ebf5fc;
     font-size: 1.6rem;
     width: 100%;
-    height: 10rem;
+    height: 5rem;
     padding: 0 5rem;
+
     display: flex;
-    flex-direction: column;
     align-items: flex-end;
+    justify-content: space-between;
+    align-items: center;
 
     &__item {
         width: 40rem;
@@ -24,8 +27,18 @@
 
     &__link {
         text-decoration: none;
-        color: #fff;
+        color: #000;
         text-transform: capitalize;
     }
     
+}
+
+.logo {
+    width: 3rem;
+    height: 3rem;
+}
+
+.logo__img {
+    width: 100%;
+    height: 100%;
 }

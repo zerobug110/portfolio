@@ -1,4 +1,12 @@
 .footer {
-    background-color: cyan;
     grid-column: 1 / -1;
+
+    font-size: 1.6rem;
+    text-transform: capitalize;
+    font-weight: 100;
+    color: #777;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }

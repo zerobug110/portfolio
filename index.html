@@ -11,6 +11,9 @@
     <main class="container">
         <header class="header">
             <nav class="nav">
+                <div class="logo">
+                    <img src="" alt="logo" class="logo__img">
+                </div>
                 <ul class="nav__item">
                     <li><a href="" class="nav__link">skills</a></li>
                     <li><a href="" class="nav__link">projects</a></li>
@@ -133,22 +136,57 @@
         <section class="about">about</section>
 
         <section class="contacts">
-            <div class="form-container">
+            <div class="contact">
                 <h3 class="contact-me">contact me</h3>
-                <form action="" class="form">
-                    <input type="text" name="" id=""  class="form__name" placeholder="Name" required>
-                    <input type="email" name="" id="" class="form__email" placeholder="Email" required>
-                    <textarea name="" id="" cols="32" rows="8" class="form__text-area" placeholder="leave a message" required></textarea> 
-                    <button type="submit" class="submit" >
-                        <svg class="send-icon">
-                            <use xlink:href= "images/sprite.svg#icon-mail"></use>
+                <div class="form-container">
+                    <form action="" class="form">
+                        <input type="text" name="" id=""  class="form__name" placeholder="Name" required>
+                        <input type="email" name="" id="" class="form__email" placeholder="Email" required>
+                        <textarea name="" id="" cols="32" rows="8" class="form__text-area" placeholder="leave a message" required></textarea> 
+                        <button type="submit" class="submit" >
+                            send
+                            <svg class="send-icon">
+                                <use xlink:href= "images/sprite.svg#icon-mail"></use>
+                            </svg>
+                        </button>              
+                    </form>
+                    <div class="contact-post-img">
+                        <img src="images/post-1019880_1280.jpg" alt="postman" class="contact-img">
+                    </div>
+                </div>
+                <div class="social-media">
+                   <a href="">
+                        <svg class="social-media__icon">
+                            <use xlink:href="images/sprite.svg#icon-dribbble"></use>
                         </svg>
-                    </button>              
-                </form>
+                   </a>
+                    
+                   <a href="">
+                        <svg class="social-media__icon">
+                            <use xlink:href ="images/sprite.svg#icon-facebook"></use>
+                        </svg>
+                   </a>
+                    
+                   <a href="">
+                        <svg class="social-media__icon">
+                            <use xlink:href="images/sprite.svg#icon-instagram"></use>
+                        </svg>
+                   </a>
+
+                    <a href="">  
+                        <svg class="social-media__icon">
+                            <use xlink:href ="images/sprite.svg#icon-github"></use>
+                        </svg>
+                     </a>
+
+                </div>
             </div>
+            
         </section>
 
-        <footer class="footer">footer</footer>
+        <footer class="footer">
+           <p>&copy;Copy right 2020 by muhammed bojang</p> 
+        </footer>
     </main>
 </body>
 </html>
