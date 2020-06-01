@@ -1,6 +1,6 @@
 .projects {
     grid-column: col-start 1 / col-end;
-    padding: 3rem 0;
+    padding: 3rem 2rem;
 }
 
 .project {
@@ -88,6 +88,10 @@
     
     &__header {
         font-size: 2rem;
+    }
+
+    &__details--description {
+        color: #777;
     }
 
 }
