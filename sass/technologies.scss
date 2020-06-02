@@ -38,9 +38,9 @@
     }
     
     &__name {
-        font-size: 1.9rem;
+        font-size: 2rem;
         font-weight: 200;
-        text-transform: uppercase;
+        text-transform: capitalize;
         grid-row: 2 / 3;
         grid-column: 4 / span 1;
     }

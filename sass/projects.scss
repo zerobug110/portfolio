@@ -40,7 +40,37 @@
         grid-row: 3 / 6;
         z-index: 10;
         padding: 1.5rem;
+
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 3rem 13rem 3rem;
+        grid-row-gap: 3rem;
+
     }
+
+    &__used-tech {
+        grid-row: 7 / -1;
+        transform: translateY(-2rem);
+        height: .2rem;
+
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-end;
+        
+
+        & li {
+            color: #222;
+            text-transform: uppercase;
+            list-style: none;
+            padding: .5rem;
+            border-radius: .2rem;
+            box-shadow: -.1rem -.2rem .6rem rgba( 255, 255, 255, 1),
+                        .1rem   .2rem   .6rem rgba(0,0,0, .4);
+
+
+        }
+    }
+    
     
     &__img--box-2 {
         grid-column: 4 / -1 ;
@@ -71,9 +101,13 @@
         padding: 1.5rem;
         z-index: 10;
         padding: 1.5rem;
-    
         grid-column:  1 / span 5;
         grid-row: 1 / 4;
+
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 3rem 13rem 3rem;
+        grid-row-gap: 3rem;
        
     }
     
@@ -84,14 +118,38 @@
         font-weight: 200;
         border-bottom: .2rem solid #fff;
         margin-bottom: 2rem;
+        padding-bottom: 4rem;
+
+        grid-column:1 / -1 ;
     }
     
-    &__header {
-        font-size: 2rem;
-    }
 
     &__details--description {
         color: #777;
+        grid-column: 1 / -1;
+    }
+
+    &__used-tech {
+        grid-row: 7 / -1;
+        transform: translateY(-2rem);
+        height: .2rem;
+
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-end;
+        
+
+        & li {
+            color: #222;
+            text-transform: uppercase;
+            list-style: none;
+            padding: .5rem;
+            border-radius: .2rem;
+            box-shadow: -.1rem -.2rem .6rem rgba( 255, 255, 255, 1),
+                        .1rem   .2rem   .6rem rgba(0,0,0, .4);
+
+
+        }
     }
 
 }
