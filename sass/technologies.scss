@@ -12,7 +12,7 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
     grid-template-rows: repeat(3, min-content);
-    grid-gap: 5rem;
+    grid-gap: 3rem;
     font-size: 1.6rem;
     padding: 5rem 5rem -5rem 5rem;   
 }
@@ -24,25 +24,28 @@
     border-radius: 2rem;
 
     display: grid;
-    grid-template-columns: repeat(7, 1fr);
+    grid-template-columns: repeat(8, 1fr);
     grid-template-rows: repeat(2, min-content);
     grid-gap: .5rem;
     align-items: center;
     justify-items: center;
+ 
 
     &__icon {
-        width: 5rem;
-        height: 5rem;
-        grid-column: 4/ span 1;
+        width: 3rem;
+        height: 3rem;
+        grid-column: 4/ span 2;
         margin-top: 2.5rem;     
     }
     
     &__name {
-        font-size: 2rem;
+        font-size: 1.6rem;
         font-weight: 200;
-        text-transform: capitalize;
+        text-transform: uppercase;
         grid-row: 2 / 3;
-        grid-column: 4 / span 1;
+        grid-column: 2 / span 6;
+        justify-items: center;
+        align-self: center;
     }
     
     &__description {

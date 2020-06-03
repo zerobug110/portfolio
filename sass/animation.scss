@@ -1,0 +1,33 @@
+@keyframes fadeTop {
+    from {
+        opacity: 0;
+        transform: translateY(2rem )
+    }
+
+    60% { 
+        opacity: .5;
+        transform: translateY(-.5rem);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeDown {
+    from {
+        opacity: 0;
+        transform: translateY(-5rem )
+    }
+
+    60% { 
+        opacity: .5;
+        transform: translateY(-.2rem);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

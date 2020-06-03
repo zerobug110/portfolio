@@ -32,27 +32,14 @@
         text-decoration: none;
         color: #000;
         text-transform: capitalize;
+        
+        &:hover {
+            border-bottom: .2rem solid #fff;
+            padding-bottom: 1rem;
+        }
     }
     
 }
-
-@keyframes fadeDown {
-    from {
-        opacity: 0;
-        transform: translateY(-5rem )
-    }
-
-    60% { 
-        opacity: .5;
-        transform: translateY(-.2rem);
-    }
-
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-
 
 .logo {
     width: 3rem;
@@ -65,38 +52,22 @@
 }
 
 .text-box {
-    grid-column: 2 / 5;
+    grid-column: 2 / -1;
+    height: 80%;
     padding-left: 2rem;
     border-left: .2rem solid #fff;
-    margin-top: 10rem;
+    margin-top: 10vh;
 }
 
 .main-heading {
-    font-size: 4rem;
+    font-size: 5rem;
     font-weight: 300;
     text-transform: uppercase;
-    transform: translateY(-1.4rem);
+    
 }
-
-@keyframes fadeTop {
-    from {
-        opacity: 0;
-        transform: translateY(2rem )
-    }
-
-    60% { 
-        opacity: .5;
-        transform: translateY(-.5rem);
-    }
-
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-
 
 .main-paragraph {
+    width: 50rem;
     font-size: 2rem;
     font-weight: 200;
 }
