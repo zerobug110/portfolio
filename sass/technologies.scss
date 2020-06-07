@@ -11,7 +11,6 @@
 
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
-    grid-template-rows: repeat(3, min-content);
     grid-gap: 3rem;
     font-size: 1.6rem;
     padding: 5rem 5rem -5rem 5rem;   
@@ -25,9 +24,8 @@
 
     display: grid;
     grid-template-columns: repeat(8, 1fr);
-    grid-template-rows: repeat(2, min-content);
+    grid-template-rows: min-content;
     grid-gap: .5rem;
-    align-items: center;
     justify-items: center;
  
 
@@ -53,7 +51,8 @@
         padding: 1rem;
     
         grid-column: 1 / -1;
-        grid-row: min-content ;
+        grid-row: min-content;
+        align-self: start;
         
     }
     
