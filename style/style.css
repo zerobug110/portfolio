@@ -41,6 +41,7 @@ body {
 .header {
   height: 100vh;
   background-image: linear-gradient(rgba(111, 234, 241, 0.904), #ebf5fc);
+  background-size: cover;
   grid-column: full-start 1 / full-end;
   display: grid;
   grid-template-columns: repeat(8, 1fr);
@@ -136,7 +137,6 @@ body {
   grid-column: col-start 1 / col-end;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
-  grid-template-rows: repeat(3, min-content);
   grid-gap: 3rem;
   font-size: 1.6rem;
   padding: 5rem 5rem -5rem 5rem; }
@@ -147,9 +147,8 @@ body {
   border-radius: 2rem;
   display: grid;
   grid-template-columns: repeat(8, 1fr);
-  grid-template-rows: repeat(2, min-content);
+  grid-template-rows: min-content;
   grid-gap: .5rem;
-  align-items: center;
   justify-items: center; }
   .tool__icon {
     width: 3rem;
@@ -168,7 +167,8 @@ body {
     color: #777;
     padding: 1rem;
     grid-column: 1 / -1;
-    grid-row: min-content; }
+    grid-row: min-content;
+    align-self: start; }
 
 .projects {
   grid-column: col-start 1 / col-end;

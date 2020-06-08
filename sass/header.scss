@@ -1,6 +1,7 @@
 .header {
     height: 100vh;
-    background-image:linear-gradient(rgba(111, 234, 241, 0.904), rgb(235, 245, 252));
+    background-image:linear-gradient(rgba(111, 234, 241, 0.904), rgb(235, 245, 252,)); //url(../images/hero.jpg);//
+    background-size: cover;
     grid-column: full-start 1 / full-end;
 
     display: grid;
