@@ -46,7 +46,8 @@ body {
   display: grid;
   grid-template-columns: repeat(8, 1fr);
   grid-template-rows: 7rem 20rem;
-  grid-row-gap: 10vh; }
+  grid-row-gap: 10vh;
+  position: relative; }
 
 .nav {
   font-size: 1.6rem;
@@ -96,13 +97,15 @@ body {
   height: 100%; }
 
 .text-box {
-  grid-column: 2 / -1;
-  height: 80%;
-  padding-left: 2rem;
-  border-left: .2rem solid #fff;
-  margin-top: 10vh; }
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  padding-left: 2rem; }
 
 .main-heading {
+  color: #fff;
   font-size: 5rem;
   font-weight: 300;
   text-transform: uppercase; }
