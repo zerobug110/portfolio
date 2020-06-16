@@ -378,6 +378,8 @@ body {
   outline: none;
   background-color: #ebf5fc;
   box-shadow: -0.7rem -0.7rem 1.7rem white, 0.7rem 0.7rem 1.7rem rgba(0, 0, 0, 0.1); }
+  .submit:active {
+    box-shadow: 0.7rem 0.7rem 1.7rem white, -0.7rem -0.7rem 1.7rem rgba(0, 0, 0, 0.1); }
 
 .submit:hover {
   cursor: pointer; }

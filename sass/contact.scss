@@ -7,7 +7,7 @@
 .contact {
     grid-column: 1 / -1;
     box-shadow: -.7rem -.7rem 1.7rem rgba(255,255,255, 1),
-    .7rem .7rem 1.7rem rgba(0,0,0, .1);
+                 .7rem .7rem 1.7rem rgba(0,0,0, .1);
     margin : 5rem 0;
     border-radius: 2rem;
 
@@ -58,7 +58,7 @@
     margin-bottom: 2rem;
 
     box-shadow: -.3rem -.3rem .9rem rgba(0,0,0, .1),
-    .3rem .3rem .9rem rgba(255,255,255, 1);
+                .3rem .3rem .9rem rgba(255,255,255, 1);
 }
 
 .submit {
@@ -73,8 +73,13 @@
     outline: none;
     background-color: #ebf5fc;
     box-shadow: -.7rem -.7rem 1.7rem rgba(255,255,255, 1),
-   .7rem .7rem 1.7rem rgba(0,0,0, .1);
+                  .7rem .7rem 1.7rem rgba(0,0,0, .1);
 
+    &:active{    
+        box-shadow: .7rem .7rem 1.7rem rgba(255,255,255, 1), 
+                    -.7rem -.7rem 1.7rem rgba(0,0,0, .1);
+    }
+    
 }
 
 .submit:hover {
