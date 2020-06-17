@@ -111,6 +111,7 @@ body {
   text-transform: uppercase; }
 
 .main-paragraph {
+  text-transform: capitalize;
   width: 50rem;
   font-size: 2rem;
   font-weight: 200; }
@@ -314,7 +315,7 @@ body {
     font-size: 1.6rem;
     color: #777;
     background-color: #fff;
-    padding: 3rem;
+    padding: 2rem;
     border-radius: 2rem;
     box-shadow: 0.3rem 0.3rem 0.9rem white, -0.3rem -0.3rem 0.9rem rgba(0, 0, 0, 0.1); }
     .about__info-text {
