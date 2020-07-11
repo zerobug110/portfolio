@@ -65,8 +65,8 @@
             list-style: none;
             padding: .5rem;
             border-radius: .2rem;
-            box-shadow: -.2rem -.2rem .6rem rgba(225, 225, 225, 1),
-                        .2rem   .2rem   .6rem rgba(0,0,0, .1);
+            box-shadow: -.2rem -.2rem .4rem rgba(225, 225, 225, 1),
+                        .2rem   .2rem   .4rem rgba(0,0,0, .1);
         
         }
     }
@@ -113,9 +113,11 @@
     }
     
     &__header {
+        color: #28e9ef;
         text-align: center;
         font-size: 2rem;
-        text-transform: capitalize;
+        text-transform: uppercase;
+        text-shadow: 0 1rem 2rem rgba(0,0,0, .1);
         font-weight: 200;
         border-bottom: .2rem solid #fff;
         margin-bottom: 2rem;

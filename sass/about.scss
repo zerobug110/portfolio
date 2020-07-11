@@ -1,13 +1,15 @@
 .about-section {
     grid-column: col-start 1  / col-end;
     padding: 3rem 2rem;
+    display: grid;
+    
     
     
 }
 .about {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-column-gap: 5rem;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, min-content));
+    grid-column-gap: 4rem;
     padding: 4rem;
 
     box-shadow: -.7rem -.7rem 1.7rem rgba(255, 255, 255, 1),
@@ -15,9 +17,10 @@
     border-radius: 2rem;
 
     &__img-box {
-        grid-column: 1 / 2;
+        width: 25rem;
+        height: 27rem;
         border-radius: 50%;
-        padding: 3rem;
+        padding: 2rem;
         box-shadow: .3rem .3rem .9rem rgba(255, 255, 255, 1),
                 -.3rem -.3rem .9rem rgba(0, 0, 0, .1);
     }
@@ -32,7 +35,7 @@
     }
 
     &__info{
-        grid-column: 2 / -1;
+        width: 70rem;
         font-size: 1.6rem;
         color: #777;
         background-color: #fff;
