@@ -293,13 +293,12 @@ body {
 
 .about-section {
   grid-column: col-start 1  / col-end;
-  padding: 3rem 2rem;
-  display: grid; }
+  padding: 3rem 2rem; }
 
 .about {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(20rem, min-content));
-  grid-column-gap: 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   padding: 4rem;
   box-shadow: -0.7rem -0.7rem 1.7rem white, 0.7rem 0.7rem 1.7rem rgba(0, 0, 0, 0.1);
   border-radius: 2rem; }

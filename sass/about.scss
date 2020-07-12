@@ -1,15 +1,15 @@
 .about-section {
     grid-column: col-start 1  / col-end;
     padding: 3rem 2rem;
-    display: grid;
+   
     
     
     
 }
 .about {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(20rem, min-content));
-    grid-column-gap: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     padding: 4rem;
 
     box-shadow: -.7rem -.7rem 1.7rem rgba(255, 255, 255, 1),
