@@ -126,6 +126,7 @@ body {
   margin-top: 2rem;
   box-shadow: 0.2rem 0.2rem 0.6rem rgba(0, 0, 0, 0.5);
   outline: none;
+  border: .1rem solid #fff;
   animation: wave 1s ease-out .3s;
   backface-visibility: hidden; }
   .hire-me:hover {
