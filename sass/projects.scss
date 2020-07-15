@@ -18,6 +18,16 @@
         border-radius: 2rem;
         padding: 1.5rem;
     }
+
+    &__tech {
+    display: flex;
+    justify-content: center;
+    color: #222;
+    text-transform: capitalize;
+    list-style: none;
+    margin-top: -.5rem;
+
+    }
     
     
     &__img-1 {
@@ -51,24 +61,8 @@
 
     &__used-tech {
         grid-row: 7 / -1;
-        transform: translateY(-2rem);
-        height: .2rem;
-
-        display: flex;
-        justify-content: space-evenly;
-        align-items: flex-end;
+        text-transform: uppercase;
         
-
-        & li {
-            color: #222;
-            text-transform: uppercase;
-            list-style: none;
-            padding: .5rem;
-            border-radius: .2rem;
-            box-shadow: -.2rem -.2rem .4rem rgba(225, 225, 225, 1),
-                        .2rem   .2rem   .4rem rgba(0,0,0, .1);
-        
-        }
     }
     
     
@@ -113,12 +107,13 @@
     }
     
     &__header {
-        color: #28e9ef;
+        color: #0e868a;
         text-align: center;
         font-size: 2rem;
         text-transform: uppercase;
-        text-shadow: 0 1rem 2rem rgba(0,0,0, .1);
-        font-weight: 200;
+        font-weight: 600;
+        letter-spacing: .1rem;
+        word-spacing: .2rem;
         border-bottom: .2rem solid #fff;
         margin-bottom: 2rem;
         padding-bottom: 4rem;
@@ -141,27 +136,22 @@
         justify-content: space-evenly;
         align-items: flex-end;
         
-
-        & li {
-            background-color: #ebf5fc;
-            color: #222;
-            text-transform: uppercase;
-            list-style: none;
-            padding: .5rem;
-            border-radius: .2rem;
-            box-shadow: -.1rem -.2rem .6rem rgba( 255, 255, 255, 1),
-                        .1rem   .2rem   .6rem rgba(0,0,0, .4);
-
-        }
     }
 
 }
 
-.vist {
+.tech-link {
+    text-transform: uppercase;
+    box-shadow: .1rem .2rem .6rem rgba(0,0,0, .4);
     text-decoration: none;
+    background-color: #ebf5fc;
     color: #222;
+    padding: .5rem;
+    list-style: none;
+    border-radius: .6rem;
 
     &:hover {
         color: #28e9ef;
+        transform: translateY(-.2rem);
     }
 }

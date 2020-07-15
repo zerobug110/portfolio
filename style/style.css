@@ -82,7 +82,7 @@ body {
         }**/ }
   .nav__link {
     text-decoration: none;
-    color: #000;
+    color: #182124;
     text-transform: capitalize; }
     .nav__link:hover {
       border-bottom: .2rem solid #fff;
@@ -101,8 +101,7 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  text-align: center;
-  padding-left: 2rem; }
+  text-align: center; }
 
 .main-heading {
   color: #fff;
@@ -114,25 +113,27 @@ body {
   text-transform: capitalize;
   width: 50rem;
   font-size: 2rem;
-  font-weight: 200; }
+  font-weight: 200;
+  margin-top: -1rem; }
 
 .hire-me {
   font-size: 1.6rem;
+  font-weight: 300;
   text-transform: capitalize;
   padding: 1.5rem 6rem;
   border: none;
   background-color: #fff;
   border-radius: 10rem;
-  margin-top: 2rem;
+  margin-top: 4rem;
   box-shadow: 0.2rem 0.2rem 0.6rem rgba(0, 0, 0, 0.5);
   outline: none;
-  border: .1rem solid #fff;
+  border: .2rem solid #fff;
   animation: wave 1s ease-out .3s;
   backface-visibility: hidden; }
   .hire-me:hover {
     cursor: pointer;
     background-color: transparent;
-    border: .1rem solid #000; }
+    border: .2rem solid #fff; }
 
 .technologies {
   grid-column: col-start 1 / col-end;
@@ -191,6 +192,13 @@ body {
     text-align: center;
     border-radius: 2rem;
     padding: 1.5rem; }
+  .project__tech {
+    display: flex;
+    justify-content: center;
+    color: #222;
+    text-transform: capitalize;
+    list-style: none;
+    margin-top: -.5rem; }
   .project__img-1 {
     width: 100%;
     height: 100%;
@@ -215,18 +223,7 @@ body {
     grid-column-gap: 6rem; }
   .project__used-tech {
     grid-row: 7 / -1;
-    transform: translateY(-2rem);
-    height: .2rem;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: flex-end; }
-    .project__used-tech li {
-      color: #222;
-      text-transform: uppercase;
-      list-style: none;
-      padding: .5rem;
-      border-radius: .2rem;
-      box-shadow: -0.2rem -0.2rem 0.4rem #e1e1e1, 0.2rem 0.2rem 0.4rem rgba(0, 0, 0, 0.1); }
+    text-transform: uppercase; }
   .project__img--box-2 {
     grid-column: 4 / -1;
     grid-row: 3 / -1;
@@ -257,12 +254,13 @@ body {
     grid-row-gap: 3rem;
     grid-column-gap: 6rem; }
   .project__header {
-    color: #28e9ef;
+    color: #0e868a;
     text-align: center;
     font-size: 2rem;
     text-transform: uppercase;
-    text-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
-    font-weight: 200;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    word-spacing: .2rem;
     border-bottom: .2rem solid #fff;
     margin-bottom: 2rem;
     padding-bottom: 4rem;
@@ -277,20 +275,19 @@ body {
     display: flex;
     justify-content: space-evenly;
     align-items: flex-end; }
-    .project__used-tech li {
-      background-color: #ebf5fc;
-      color: #222;
-      text-transform: uppercase;
-      list-style: none;
-      padding: .5rem;
-      border-radius: .2rem;
-      box-shadow: -0.1rem -0.2rem 0.6rem white, 0.1rem 0.2rem 0.6rem rgba(0, 0, 0, 0.4); }
 
-.vist {
+.tech-link {
+  text-transform: uppercase;
+  box-shadow: 0.1rem 0.2rem 0.6rem rgba(0, 0, 0, 0.4);
   text-decoration: none;
-  color: #222; }
-  .vist:hover {
-    color: #28e9ef; }
+  background-color: #ebf5fc;
+  color: #222;
+  padding: .5rem;
+  list-style: none;
+  border-radius: .6rem; }
+  .tech-link:hover {
+    color: #28e9ef;
+    transform: translateY(-0.2rem); }
 
 .about-section {
   grid-column: col-start 1  / col-end;
@@ -376,7 +373,7 @@ body {
 .submit {
   font-size: 1.6rem;
   text-transform: capitalize;
-  color: #28e9ef;
+  color: #0e868a;
   width: 10rem;
   padding: 3rem 3rem;
   margin: 0 auto;
@@ -395,14 +392,14 @@ body {
   font-size: 1.8rem;
   font-weight: 100;
   text-transform: uppercase;
-  color: #28e9ef;
+  color: #0e868a;
   text-align: center;
   padding-top: 2rem; }
 
 .send-icon {
   width: 2rem;
   height: 2rem;
-  fill: #28e9ef; }
+  fill: #0e868a; }
 
 .facebook:hover {
   fill: #3b5998; }
