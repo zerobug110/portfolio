@@ -2,9 +2,7 @@
     grid-column: col-start 1  / col-end;
     padding: 3rem 2rem;
    
-    
-    
-    
+        
 }
 .about {
     display: flex;
@@ -47,10 +45,9 @@
 
 
         &-text {
-            margin-bottom: 6rem;
+            margin-bottom: 3rem;
             transform: translateY(1.5rem);
         }
     }
-
     
 }
