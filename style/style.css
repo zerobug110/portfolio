@@ -269,6 +269,7 @@ body {
     color: #777;
     grid-column: 1 / -1; }
   .project__used-tech {
+    color: #0e868a;
     grid-row: 7 / -1;
     transform: translateY(-2rem);
     height: .2rem;
