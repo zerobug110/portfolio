@@ -63,7 +63,7 @@ body {
     justify-content: space-between;
     list-style: none;
     padding: 2.5rem 0;
-    animation: fadeDown 1s ease-out 0s;
+    animation: fadeDown 2s ease-out 0s;
     /*& :nth-child(1) {
             animation: fadeDown 1s ease-in 1s;
             
@@ -90,7 +90,8 @@ body {
 
 .logo {
   width: 3rem;
-  height: 3rem; }
+  height: 3rem;
+  animation: fadeDown 2s ease-out 0s; }
 
 .logo__img {
   width: 100%;
@@ -128,7 +129,7 @@ body {
   box-shadow: 0.2rem 0.2rem 0.6rem rgba(0, 0, 0, 0.5);
   outline: none;
   border: .2rem solid #fff;
-  animation: wave 1s ease-out .3s;
+  animation: wave 1s ease-out .7s;
   backface-visibility: hidden; }
   .hire-me:hover {
     cursor: pointer;
@@ -456,7 +457,7 @@ body {
     opacity: 0;
     transform: translateY(2rem); }
   60% {
-    opacity: .5;
+    opacity: .7;
     transform: translateY(-0.5rem); }
   to {
     opacity: 1;
@@ -467,7 +468,7 @@ body {
     opacity: 0;
     transform: translateY(-5rem); }
   60% {
-    opacity: .5;
+    opacity: .7;
     transform: translateY(-0.2rem); }
   to {
     opacity: 1;
@@ -488,3 +489,19 @@ body {
     transform: translate3d(-5%, 0, 0) rotate3d(0, 0, 1, -2deg); }
   to {
     transform: none; } }
+
+/*
+1 - 600px: phone
+600 - 900px: tablet portrait
+900 - 1200px: tablet landscape
+[1200 - 1800] is where our nrmal styles apply
+1800px  or more: big desktop (4k screen) 
+
+*/
+/*
+$breakpoint arguement choices:
+- phone
+- tab-port
+- tab-land
+- big-desktop
+*/

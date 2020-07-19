@@ -1,0 +1,41 @@
+// mediaquery manager
+
+/*
+1 - 600px: phone
+600 - 900px: tablet portrait
+900 - 1200px: tablet landscape
+[1200 - 1800] is where our nrmal styles apply
+1800px  or more: big desktop (4k screen) 
+
+*/
+
+
+/*
+$breakpoint arguement choices:
+- phone
+- tab-port
+- tab-land
+- big-desktop
+*/
+
+
+ @mixin respond($breakpoint) {
+     @if $breakpoint == phone {
+        @media (max-width: 600px) { @content };
+     }
+     @if $breakpoint == tab-port {
+         @media (max-width: 900px) { @content };
+     }
+     @if $breakpoint == tab-land {
+         @media (max-width: 1200px) { @content };
+     }
+     @if $breakpoint == big-desktop {
+         @media (min-width: 1800px) { @content };
+    }
+}
+
+
+
+
+
+
