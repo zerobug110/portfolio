@@ -18,19 +18,18 @@ $breakpoint arguement choices:
 - big-desktop
 */
 
-
  @mixin respond($breakpoint) {
      @if $breakpoint == phone {
-        @media (max-width: 600px) { @content };
+        @media (max-width: 37.5em) { @content; } // 1em =16px 16px / 600px = 37.5em
      }
      @if $breakpoint == tab-port {
-         @media (max-width: 900px) { @content };
+         @media (max-width: 56.25em) { @content; } // 1em = 16px / 900px = 56.25em
      }
      @if $breakpoint == tab-land {
-         @media (max-width: 1200px) { @content };
+         @media (max-width: 75em) { @content; } //1em = 16px / 1200px = 75em
      }
      @if $breakpoint == big-desktop {
-         @media (min-width: 1800px) { @content };
+         @media (min-width: 112.5em) { @content; } // 1em = 16px / 1800px /112.5em
     }
 }
 

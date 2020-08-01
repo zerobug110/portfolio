@@ -3,9 +3,6 @@
     padding: 0 2rem;
 }
 
-
-
-
 .tools {
     grid-column: col-start 1 / col-end;
 
@@ -13,7 +10,11 @@
     grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
     grid-gap: 3rem;
     font-size: 1.6rem;
-    padding: 5rem 5rem -5rem 5rem;   
+    padding: 5rem 5rem -5rem 5rem;  
+    
+    @include respond (tab-land) {
+        font-size: 1.3em;
+    }
 }
 
 .tool {
@@ -28,7 +29,6 @@
     grid-template-rows: min-content;
     grid-gap: .5rem;
     justify-items: center;
- 
 
     &__icon {
         width: 3rem;
@@ -53,10 +53,6 @@
     
         grid-column: 1 / -1;
         grid-row: min-content;
-        align-self: start;
-        
-    }
-    
-    
+        align-self: start;   
+    }    
 }
-

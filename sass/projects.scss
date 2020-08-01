@@ -17,6 +17,19 @@
         text-align: center;
         border-radius: 2rem;
         padding: 1.5rem;
+
+
+        @include respond (tab-port) {
+            grid-column: 1 / -1 ;
+            grid-row: 1 / 4;
+        }
+    }
+
+    .project__details--description {
+        font-size: 1.6rem;
+        @include respond (tab-port) {
+            font-size: 1.2em;
+        }
     }
 
     &__tech {
@@ -37,6 +50,7 @@
         grid-column: 1 / 4;
         grid-row: 1 / 2 ;
         border-radius: 2rem;
+
     }
     
     &__details-1 {
@@ -57,6 +71,11 @@
         grid-row-gap: 3rem;
         grid-column-gap: 6rem;
 
+        @include respond (tab-port) {
+            grid-column:  1 / -1;
+            grid-row: 3 / 6;
+            font-size: 1.2em;
+        }
     }
 
     &__used-tech {
@@ -75,6 +94,12 @@
         text-align: center;
         border-radius: 2rem;
         padding: 1.5rem;
+
+        @include respond (tab-port) {
+            grid-column: 1 / -1 ;
+            grid-row: 1 / 4;;
+        
+        }
     }
     
     &__img-2 {
@@ -104,6 +129,11 @@
         grid-row-gap: 3rem;
         grid-column-gap: 6rem;
        
+        @include respond (tab-port) {
+            grid-column:  1 / -1;
+            grid-row: 3 / 6;
+            font-size: 1.3em;
+        }
     }
     
     &__header {
