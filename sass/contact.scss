@@ -7,8 +7,8 @@
     
 }
 .contact {
-    box-shadow: -.7rem -.7rem 1.7rem rgba(255,255,255, 1),
-                 .7rem .7rem 1.7rem rgba(0,0,0, .1);
+    box-shadow: -.7rem -.7rem 1.7rem rgb(238, 252, 255),
+                    .7rem .7rem 1.7rem rgba(47, 48, 49, 0.1);
     border-radius: 2rem;    
 
 }
@@ -78,8 +78,8 @@
     font-size: 1.6rem;
     color: #444;
 
-    box-shadow: -.3rem -.3rem .9rem rgba(0,0,0, .1),
-                .3rem .3rem .9rem rgba(255,255,255, 1);
+    box-shadow: .3rem .3rem .9rem rgba(238, 252, 255, 1),
+                 -.3rem -.3rem .9rem rgba(47, 48, 49, .1);
 }
 
 .submit {
@@ -92,13 +92,13 @@
     border: none;
     border-radius: 50%;
     outline: none;
-    background-color: #ebf5fc;
-    box-shadow: -.7rem -.7rem 1.7rem rgba(255,255,255, 1),
-                  .7rem .7rem 1.7rem rgba(0,0,0, .1);
+    background-color: #d7f6ff;
+    box-shadow: -.7rem -.7rem 1.7rem rgb(238, 252, 255),
+    .7rem .7rem 1.7rem rgba(47, 48, 49, 0.1);
 
     &:active{    
-        box-shadow: .7rem .7rem 1.7rem rgba(255,255,255, 1), 
-                    -.7rem -.7rem 1.7rem rgba(0,0,0, .1);
+        box-shadow: .7rem .7rem 1.7rem rgba(238,252,255, 1), 
+                    -.7rem -.7rem 1.7rem rgba(47,48,49, .1);
     }
 
     
@@ -121,6 +121,7 @@
     width: 2rem;
     height: 2rem;
     fill: #0e868a;
+  
     
     @include respond (phone) {
         width: 1em;
@@ -145,8 +146,9 @@
     width: 15rem;
     margin-bottom: 3rem;
     border-radius:50%;
-    box-shadow: -.3rem -.3rem .9rem rgba(0,0,0, .1),
-    .3rem .3rem .9rem rgba(255,255,255, 1);
+    
+    box-shadow: .3rem .3rem .9rem rgba(238, 252, 255, 1),
+                 -.3rem -.3rem .9rem rgba(47, 48, 49, .1);
 }
 
 .contact-img {

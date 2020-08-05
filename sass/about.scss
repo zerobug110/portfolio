@@ -9,9 +9,8 @@
     justify-content: space-between;
     align-items: center;
     padding: 4rem;
-
-    box-shadow: -.7rem -.7rem 1.7rem rgba(255, 255, 255, 1),
-                .7rem .7rem 1.7rem rgba(0, 0, 0, .1);
+    box-shadow: -.7rem -.7rem 1.7rem rgb(238, 252, 255),
+                .7rem .7rem 1.7rem rgba(47, 48, 49, 0.1);
     border-radius: 2rem;
 
     @include respond (tab-port) {
@@ -24,8 +23,8 @@
         height: 27rem;
         border-radius: 50%;
         padding: 2rem;
-        box-shadow: .3rem .3rem .9rem rgba(255, 255, 255, 1),
-                -.3rem -.3rem .9rem rgba(0, 0, 0, .1);
+        box-shadow: .3rem .3rem .9rem rgba(2538, 252, 255, 1),
+                -.3rem -.3rem .9rem rgba(47, 48, 49, .1);
         
         
         @include respond (tab-port) {
@@ -38,8 +37,8 @@
         height: 100%;
         object-fit: cover;
         border-radius: 50%;
-        box-shadow: .3rem .3rem .9rem rgba(255, 255, 255, 1),
-                    -.3rem -.3rem .9rem rgba(0, 0, 0, .1);
+        box-shadow: .3rem .3rem .9rem rgba(238, 252, 255, 1),
+                    -.3rem -.3rem .9rem rgba(47, 48, 49, .1);
     }
 
     &__info{
@@ -49,9 +48,8 @@
         background-color: #fff;
         padding: 2rem ;
         border-radius: 2rem;
-
-        box-shadow: .3rem .3rem .9rem rgba(255, 255, 255, 1),
-                -.3rem -.3rem .9rem rgba(0, 0, 0, .1);
+        box-shadow: .3rem .3rem .9rem rgba(238, 252, 255, 1),
+                    -.3rem -.3rem .9rem rgba(47, 48, 49, .1);
 
 
         &-text {

@@ -18,8 +18,8 @@
         grid-column: 1 / span 5 ;
         grid-row: 1 / 4;
     
-        box-shadow: -.7rem -.7rem  1.7rem rgba( 255, 255, 255, 1),
-                    .7rem .7rem .7rem rgba(0,0,0, .1);
+        box-shadow: -.7rem -.7rem 1.7rem rgb(238, 252, 255),
+                    .7rem .7rem 1.7rem rgba(47, 48, 49, 0.1);
         text-align: center;
         border-radius: 2rem;
         padding: 1.5rem;
@@ -61,9 +61,9 @@
     }
     
     &__details-1 {
-        background-color: #ebf5fc;
-        box-shadow: -.7rem -.7rem 1.7rem rgba( 255, 255, 255, 1),
-                    .7rem .7rem 1.7rem rgba(0,0,0, .1);
+        background-color: #d7f6ff;
+        box-shadow: -.7rem -.7rem 1.7rem rgb(238, 252, 255),
+                    .7rem .7rem 1.7rem rgba(47, 48, 49, 0.1);
         font-size: 1.6rem;
         border-radius: 2rem;
         padding: 1.5rem;
@@ -99,8 +99,8 @@
         grid-column: 4 / -1 ;
         grid-row: 3 / -1;
     
-        box-shadow: -.7rem -.7rem  1.7rem rgba( 255, 255, 255, 1),
-                    .7rem .7rem .7rem rgba(0,0,0, .1);
+        box-shadow: -.7rem -.7rem 1.7rem rgb(238, 252, 255),
+        .7rem .7rem 1.7rem rgba(47, 48, 49, 0.1);
         text-align: center;
         border-radius: 2rem;
         padding: 1.5rem;
@@ -122,9 +122,9 @@
     }
     
     &__details-2 {
-        background-color: #ebf5fc;
-        box-shadow: -.7rem -.7rem 1.7rem rgba( 255, 255, 255, 1),
-                    .7rem .7rem 1.7rem rgba(0,0,0, .1);
+        background-color: #d7f6ff;
+        box-shadow: -.7rem -.7rem 1.7rem rgb(238, 252, 255),
+                    .7rem .7rem 1.7rem rgba(47, 48, 49, 0.1);
         font-size: 1.6rem;
         border-radius: 2rem;
         padding: 1.5rem;
@@ -191,8 +191,8 @@
     text-transform: uppercase;
     box-shadow: .1rem .2rem .6rem rgba(0,0,0, .4);
     text-decoration: none;
-    background-color: #ebf5fc;
-    color: #222;
+    background-color: #d7f6ff;
+    color: #0e868a;
     padding: .5rem;
     list-style: none;
     border-radius: .6rem;
