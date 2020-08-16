@@ -90,7 +90,7 @@ body {
     animation: fadeDown 2s ease-out 0s; }
   .nav__link {
     text-decoration: none;
-    color: #182124;
+    color: #043133;
     text-transform: capitalize; }
     .nav__link:hover {
       border-bottom: .2rem solid #fff;
@@ -119,6 +119,8 @@ body {
   text-transform: uppercase; }
 
 .main-paragraph {
+  color: #043133;
+  max-width: 50rem;
   text-transform: capitalize;
   font-size: 2rem;
   font-weight: 300;
@@ -133,7 +135,7 @@ body {
   background-color: #fff;
   border-radius: 10rem;
   margin-top: 4rem;
-  box-shadow: 0.2rem 0.2rem 0.6rem rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0.2rem 0.5rem 0 rgba(0, 0, 0, 0.2), 0 0.2rem 0.5rem 0 rgba(0, 0, 0, 0.1);
   outline: none;
   border: .2rem solid #fff;
   animation: wave 1s ease-out .7s;
@@ -174,6 +176,7 @@ body {
     grid-column: 4/ span 2;
     margin-top: 2.5rem; }
   .tool__name {
+    color: #0c7275;
     font-size: 1.6rem;
     font-weight: 200;
     text-transform: uppercase;
@@ -233,7 +236,7 @@ body {
     border-radius: 2rem; }
   .project__details-1 {
     background-color: #d7f6ff;
-    box-shadow: .8rem .8rem 1.6rem #c6e2eb,  -.8rem -.8rem 1.6rem #e8ffff;
+    box-shadow: 0.8rem 0.8rem 1.6rem #c6e2eb, -0.8rem -0.8rem 1.6rem rgba(232, 255, 255, 0.705);
     font-size: 1.6rem;
     border-radius: 2rem;
     padding: 1.5rem;
@@ -278,7 +281,7 @@ body {
     background-position: bottom; }
   .project__details-2 {
     background-color: #d7f6ff;
-    box-shadow: .8rem .8rem 1.6rem #c6e2eb,  -.8rem -.8rem 1.6rem #e8ffff;
+    box-shadow: 0.8rem 0.8rem 1.6rem rgba(198, 226, 235, 0.705), -0.8rem -0.8rem 1.6rem #e8ffff;
     font-size: 1.6rem;
     border-radius: 2rem;
     padding: 1.5rem;
@@ -423,7 +426,7 @@ body {
     font-family: sans-serif;
     font-size: 1.6rem;
     width: 50rem;
-    padding: 2rem;
+    padding: 1rem;
     outline: none;
     border: none;
     border-radius: 1rem; }

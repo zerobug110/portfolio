@@ -61,8 +61,8 @@
     
     &__details-1 {
         background-color: #d7f6ff;
-        box-shadow:  .8rem .8rem 1.6rem #c6e2eb, 
-                     -.8rem -.8rem 1.6rem #e8ffff;
+        box-shadow:  .8rem .8rem 1.6rem rgb(198, 226, 235), 
+                     -.8rem -.8rem 1.6rem rgba(232, 255, 255, 0.705);
         font-size: 1.6rem;
         border-radius: 2rem;
         padding: 1.5rem;
@@ -123,8 +123,8 @@
     
     &__details-2 {
         background-color: #d7f6ff;
-        box-shadow:  .8rem .8rem 1.6rem #c6e2eb, 
-                     -.8rem -.8rem 1.6rem #e8ffff;
+        box-shadow:  .8rem .8rem 1.6rem rgba(198, 226, 235, 0.705), 
+                     -.8rem -.8rem 1.6rem rgb(232, 255, 255);
         font-size: 1.6rem;
         border-radius: 2rem;
         padding: 1.5rem;
