@@ -176,12 +176,13 @@
     &__used-tech {
         color: #0e868a;
         grid-row: 7 / -1;
-        transform: translateY(-2rem);
+        transform: translateY(-1rem);
         height: .2rem;
 
         display: flex;
         justify-content: space-evenly;
         align-items: flex-end;
+        
        
 
         @include respond (phone) {
@@ -202,9 +203,10 @@
     padding: .5rem;
     list-style: none;
     border-radius: .6rem;
+    transform: translateY(-1rem);
 
     &:hover {
         color:  #0e868a;
-        transform: translateY(-.2rem);
+        transform: translateY(-.8rem);
     }
 }

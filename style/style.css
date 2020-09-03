@@ -322,7 +322,7 @@ body {
   .project__used-tech {
     color: #0e868a;
     grid-row: 7 / -1;
-    transform: translateY(-2rem);
+    transform: translateY(-1rem);
     height: .2rem;
     display: flex;
     justify-content: space-evenly;
@@ -336,10 +336,11 @@ body {
   color: #0e868a;
   padding: .5rem;
   list-style: none;
-  border-radius: .6rem; }
+  border-radius: .6rem;
+  transform: translateY(-1rem); }
   .tech-link:hover {
     color: #0e868a;
-    transform: translateY(-0.2rem); }
+    transform: translateY(-0.8rem); }
 
 .about-section {
   grid-column: col-start 1  / col-end;
@@ -477,8 +478,8 @@ body {
       width: 1em;
       height: 1em; } }
 
-.facebook:hover {
-  fill: #3b5998; }
+.linkedin :hover {
+  fill: #211f1f; }
 
 .dribbble:hover {
   fill: #ea4c89; }
@@ -486,7 +487,7 @@ body {
 .twitter:hover {
   fill: #00acee; }
 
-.gitub:hover {
+.gihub:hover {
   fill: #211f1f; }
 
 .contact-post-img {
