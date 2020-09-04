@@ -36,7 +36,7 @@ html {
 .container {
   display: grid;
   grid-template-rows: 100vh repeat(5, min-content);
-  grid-template-columns: [full-start] 1fr repeat(8, [col-start] minmax(min-content, 14rem)) [col-end] 1fr [full-end]; }
+  grid-template-columns: [full-start] 5rem 1fr repeat(8, [col-start] minmax(min-content, 14rem)) [col-end] 1fr 5rem [full-end]; }
 
 body {
   font-family: sans-serif;
@@ -68,19 +68,20 @@ body {
   background-size: cover;
   grid-column: full-start 1 / full-end;
   display: grid;
-  grid-template-columns: repeat(8, 1fr);
+  grid-template-columns: [full-start] 5rem 1fr repeat(8, [col-start] minmax(min-content, 14rem)) [col-end] 1fr 5rem [full-end];
   grid-template-rows: 7rem 20rem;
   grid-row-gap: 10vh;
   position: relative; }
 
 .nav {
   font-size: 1.6rem;
-  grid-column: 2 / 8;
+  grid-column: col-start 1 / col-end;
   grid-row: 1 / 1;
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
-  align-items: center; }
+  align-items: center;
+  height: 10rem; }
   .nav__item {
     width: 40rem;
     display: flex;
@@ -97,8 +98,8 @@ body {
       padding-bottom: 1rem; }
 
 .logo {
-  width: 3rem;
-  height: 3rem;
+  width: 6rem;
+  height: 6rem;
   animation: fadeDown 2s ease-out 0s; }
 
 .logo__img {
@@ -115,8 +116,9 @@ body {
 .main-heading {
   color: #fff;
   font-size: 5rem;
-  font-weight: 300;
-  text-transform: uppercase; }
+  font-weight: 550;
+  text-transform: uppercase;
+  text-shadow: 0 0.1rem 0.2rem rgba(0, 0, 0, 0.4); }
 
 .main-paragraph {
   color: #043133;
@@ -146,14 +148,13 @@ body {
     border: .2rem solid #fff; }
 
 .technologies {
-  grid-column: col-start 1 / col-end;
-  padding: 0 2rem; }
+  grid-column: col-start 1 / col-end; }
 
 .tools {
   grid-column: col-start 1 / col-end;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
-  grid-gap: 3rem;
+  grid-gap: 5rem;
   font-size: 1.6rem;
   padding: 5rem 5rem -5rem 5rem; }
   @media (max-width: 75em) {
@@ -171,8 +172,9 @@ body {
   grid-gap: .5rem;
   justify-items: center; }
   .tool__icon {
-    width: 3rem;
-    height: 3rem;
+    text-align: center;
+    width: 4rem;
+    height: 4rem;
     grid-column: 4/ span 2;
     margin-top: 2.5rem; }
   .tool__name {
@@ -193,7 +195,7 @@ body {
 
 .projects {
   grid-column: col-start 1 / col-end;
-  padding: 3rem 2rem; }
+  padding: 3rem 0; }
 
 .project {
   display: grid;
@@ -344,7 +346,7 @@ body {
 
 .about-section {
   grid-column: col-start 1  / col-end;
-  padding: 3rem 2rem; }
+  padding: 3rem 0; }
 
 .about {
   display: flex;
@@ -388,7 +390,7 @@ body {
 
 .contacts {
   grid-column: col-start 1 / col-end;
-  padding: 2rem 2rem; }
+  padding: 2rem 0; }
 
 .contact {
   box-shadow: .8rem .8rem 1.6rem #c6e2eb,  -.8rem -.8rem 1.6rem #e8ffff;

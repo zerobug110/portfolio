@@ -25,5 +25,5 @@ html {
 .container {
     display: grid;
     grid-template-rows: 100vh repeat(5, min-content);
-    grid-template-columns: [full-start] 1fr repeat(8,[col-start] minmax(min-content, 14rem))[col-end] 1fr [full-end];
+    grid-template-columns: [full-start]5rem 1fr repeat(8,[col-start] minmax(min-content, 14rem))[col-end] 1fr  5rem[full-end];
 }

@@ -1,6 +1,5 @@
 .technologies {
     grid-column: col-start 1 / col-end;
-    padding: 0 2rem;
 }
 
 .tools {
@@ -8,7 +7,7 @@
 
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
-    grid-gap: 3rem;
+    grid-gap: 5rem;
     font-size: 1.6rem;
     padding: 5rem 5rem -5rem 5rem;  
     
@@ -31,8 +30,10 @@
     justify-items: center;
 
     &__icon {
-        width: 3rem;
-        height: 3rem;
+
+        text-align: center;
+        width: 4rem;
+        height: 4rem;
         grid-column: 4/ span 2;
         margin-top: 2.5rem;     
     }
