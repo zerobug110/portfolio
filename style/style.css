@@ -51,16 +51,17 @@ body {
   align-items: center;
   justify-content: center;
   margin: 3rem 0;
+  color: #067075;
   text-align: center;
-  font-size: 2.1rem;
-  font-weight: 200;
+  font-size: 2.5rem;
+  font-weight: 600;
   text-transform: uppercase; }
 
 .header-2:before,
 .header-2:after {
   content: "";
   display: block;
-  border-bottom: .3rem solid #28e9ef; }
+  border-bottom: .2rem solid #28e9ef; }
 
 .header {
   height: 100vh;
@@ -472,15 +473,15 @@ body {
   padding-top: 3rem; }
 
 .send-icon {
-  width: 3rem;
-  height: 2rem;
+  width: 2.5rem;
+  height: 2.5rem;
   fill: #0e868a; }
   @media (max-width: 37.5em) {
     .send-icon {
       width: 1em;
       height: 1em; } }
 
-.linkedin :hover {
+.linkedin:hover {
   fill: #211f1f; }
 
 .dribbble:hover {
@@ -512,6 +513,7 @@ body {
   border-top: .2rem solid #fff;
   margin: 0 auto; }
   .social-media__icon {
+    fill: #0e868a;
     width: 2.5rem;
     height: 2.5rem; }
     @media (max-width: 37.5em) {

@@ -118,8 +118,8 @@
 }
 
 .send-icon {
-    width: 3rem;
-    height: 2rem;
+    width: 2.5rem;
+    height: 2.5rem;
     fill: #0e868a;
   
     
@@ -128,7 +128,7 @@
         height: 1em;
     }
 }
-.linkedin :hover {fill: #211f1f}
+.linkedin:hover {fill: #211f1f}
 
 .dribbble:hover {fill: #ea4c89;}
 
@@ -161,6 +161,7 @@
     border-top: .2rem solid #fff;
     margin: 0 auto;
     &__icon {
+        fill: #0e868a;
         width: 2.5rem;
         height: 2.5rem;
         
