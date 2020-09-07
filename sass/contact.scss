@@ -37,11 +37,22 @@
         border-radius: 1rem;
         outline: none;
 
+        
+
         @include respond (tab-port) {
-        width: 45rem;
-        margin: 0 auto;
+            width: 50rem;
+            margin: 0 auto;
         }
         
+        @include respond (phone) {
+            width: 20rem;
+            margin: 0 auto;
+        }
+        
+        @include respond (tab-port) {
+            width: 25rem;
+            margin: 0 auto;
+        }
     }
 
     &__email {
@@ -51,11 +62,21 @@
         outline: none;
         padding: 1rem 5rem 1rem 1rem;
         
-        @include respond (tab-port) {
-            width: 45rem;
-            margin: 0 auto;
-            }
         
+        @include respond (tab-port) {
+            width: 50rem;
+            margin: 0 auto;
+        }
+        
+        @include respond (phone) {
+            width: 20rem;
+            margin: 0 auto;
+        }
+        
+        @include respond (tab-port) {
+            width: 25rem;
+            margin: 0 auto;
+        }
     }
 
     &__text-area {
@@ -67,8 +88,20 @@
         border: none;
         border-radius: 1rem;
 
+        
         @include respond (tab-port) {
-            
+            width: 50rem;
+            margin: 0 auto;
+        }
+        
+        @include respond (phone) {
+            width: 20rem;
+            margin: 0 auto;
+        }
+        
+        @include respond (tab-port) {
+            width: 25rem;
+            margin: 0 auto;
         }
     }
 }
@@ -81,6 +114,7 @@
     box-shadow: .3rem .3rem .9rem rgba(238, 252, 255, 1),
                  -.3rem -.3rem .9rem rgba(47, 48, 49, .1);
 }
+
 
 .submit {
     font-size: 1.6rem;

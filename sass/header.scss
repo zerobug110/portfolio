@@ -1,5 +1,4 @@
 .header {
-    height: 100vh;
     background-image:linear-gradient(
         rgba(100, 241, 248, 0.904),
         rgb(215, 246, 255));
@@ -10,6 +9,12 @@
     grid-template-columns: [full-start]5rem 1fr repeat(8,[col-start] minmax(min-content, 14rem))[col-end] 1fr 5rem[full-end];   grid-template-rows: 7rem 20rem;
     grid-row-gap: 10vh;
     position: relative;
+  
+    
+    
+    @include respond (tab-land) {
+    }
+    
 }
 
 .nav {
@@ -21,8 +26,17 @@
     align-items: flex-end;
     justify-content: space-between;
     align-items: center;
+    
+    
+    @include respond (tab-land) {
+        align-items: flex-start;
+        margin-top: 5rem;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+      
 
-    height: 10rem;
+    }
     
 
     &__item {
@@ -32,7 +46,24 @@
         list-style: none;
         padding: 2.5rem 0;
         animation: fadeDown 2s ease-out 0s;
+
+        @include respond (tab-land) {
+            display: none;
+            // flex-direction: column;
+            // justify-content: space-evenly;
+            // align-items: center;
+            // background-color: red;
+            // position: absolute;
+            // left: 0;
+            // z-index: 9;
+            // position: absolute;
+            // overflow: hidden;
+        }
             
+    }
+
+    &__open {
+
     }
 
     
@@ -47,6 +78,25 @@
             padding-bottom: 1rem;
         }
     }
+    
+}
+.lines{
+    width: 3rem;
+    height: 2rem;
+    padding-bottom: .5rem;
+    display: none;
+    z-index: 19;
+
+    @include respond (tab-land) {
+        display: block;
+    }
+}
+
+.line {
+    width: 3rem;
+    height: .4rem;
+    background-color: #043133;
+    margin-bottom: .5rem;
     
 }
 

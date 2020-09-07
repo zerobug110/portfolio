@@ -10,7 +10,7 @@
     
     @include respond (phone) {
         grid-template-columns: repeat(auto-fit, min-max(20rem, 1fr));
-        grid-template-rows: repeat(5, 11rem);
+        grid-template-rows: repeat(6, 11rem);
         
     }
 
@@ -28,7 +28,7 @@
 
         @include respond (tab-port) {
             grid-column: 1 / -1 ;
-            grid-row: 1 / 4;
+            grid-row: 1 / 6;
         }
     }
 
