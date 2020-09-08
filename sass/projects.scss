@@ -10,7 +10,7 @@
     
     @include respond (phone) {
         grid-template-columns: repeat(auto-fit, min-max(20rem, 1fr));
-        grid-template-rows: 25rem;        
+        grid-template-rows: 15rem;        
     }
 
     &__img--box-1 {
