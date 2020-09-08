@@ -10,8 +10,7 @@
     
     @include respond (phone) {
         grid-template-columns: repeat(auto-fit, min-max(20rem, 1fr));
-        grid-template-rows: repeat(6, 11rem);
-        
+        grid-template-rows: 25rem;        
     }
 
     &__img--box-1 {
@@ -23,9 +22,7 @@
         text-align: center;
         border-radius: 2rem;
         padding: 1.5rem;
-        
-
-
+    
         @include respond (tab-port) {
             grid-column: 1 / -1 ;
             grid-row: 1 / 6;
@@ -84,7 +81,10 @@
             grid-column:  1 / -1;
             grid-row: 3 / 6;
             font-size: 1.2em;
+            display: none;
         }
+
+        
     }
 
     &__used-tech {
@@ -143,11 +143,20 @@
         grid-row-gap: 3rem;
         grid-column-gap: 6rem;
        
+
+
+        @include respond (phone) {
+            display: none;
+            
+       
+        }
+
         @include respond (tab-port) {
             grid-column:  1 / -1;
             grid-row: 3 / 6;
             font-size: 1.3em;
         }
+
     }
     
     &__header {
