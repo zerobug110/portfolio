@@ -87,7 +87,7 @@ body {
   @media (max-width: 75em) {
     .nav {
       align-items: flex-start;
-      margin-top: 5rem;
+      margin-top: 3rem;
       height: 100%;
       width: 100%;
       position: absolute; } }
@@ -105,7 +105,7 @@ body {
         justify-content: space-evenly;
         align-items: center;
         background-color: #043133;
-        box-shadow: 0.4rem 0.7rem rgba(0, 0, 0, 0.7);
+        box-shadow: 0 0.4rem 0.7rem rgba(0, 0, 0, 0.7);
         position: absolute;
         right: -5rem;
         top: -150rem;
@@ -129,9 +129,9 @@ body {
 .lines {
   width: 3rem;
   height: 2rem;
-  padding-bottom: .5rem;
   display: none;
-  z-index: 19; }
+  z-index: 19;
+  margin-top: 2rem; }
   @media (max-width: 75em) {
     .lines {
       display: block; } }
@@ -164,6 +164,11 @@ body {
   font-weight: 550;
   text-transform: uppercase;
   text-shadow: 0 0.1rem 0.2rem rgba(0, 0, 0, 0.4); }
+  @media (max-width: 37.5em) {
+    .main-heading {
+      font-size: 4rem;
+      font-weight: 500;
+      margin-bottom: 2rem; } }
 
 .main-paragraph {
   color: #043133;
@@ -172,6 +177,9 @@ body {
   font-size: 2rem;
   font-weight: 300;
   margin-top: -1rem; }
+  @media (max-width: 37.5em) {
+    .main-paragraph {
+      font-size: 1.6rem; } }
 
 .hire-me {
   font-size: 1.6rem;
@@ -191,6 +199,9 @@ body {
     cursor: pointer;
     background-color: transparent;
     border: .2rem solid #fff; }
+  @media (max-width: 37.5em) {
+    .hire-me {
+      padding: 1rem 4rem; } }
 
 .technologies {
   grid-column: col-start 1 / col-end; }
@@ -249,7 +260,7 @@ body {
   @media (max-width: 37.5em) {
     .project {
       grid-template-columns: repeat(auto-fit, min-max(20rem, 1fr));
-      grid-template-rows: 25rem; } }
+      grid-template-rows: 15rem; } }
   .project__img--box-1 {
     grid-column: 1 / span 5;
     grid-row: 1 / 4;
@@ -480,7 +491,7 @@ body {
         margin: 0 auto; } }
     @media (max-width: 37.5em) {
       .form__name {
-        width: 35rem;
+        width: 30rem;
         margin: 0 auto; } }
   .form__email {
     width: 50rem;
@@ -498,7 +509,7 @@ body {
         margin: 0 auto; } }
     @media (max-width: 37.5em) {
       .form__email {
-        width: 35rem;
+        width: 30rem;
         margin: 0 auto; } }
   .form__text-area {
     font-family: sans-serif;
@@ -518,7 +529,7 @@ body {
         margin: 0 auto; } }
     @media (max-width: 37.5em) {
       .form__text-area {
-        width: 35rem;
+        width: 30rem;
         margin: 0 auto; } }
 
 .form > *:not(:last-child) {
