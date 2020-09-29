@@ -48,7 +48,7 @@
         padding: 2.5rem 0;
         animation: fadeDown 2s ease-out 0s;
 
-        @include respond (tab-land) {
+        @include respond (tab-port) {
             font-size: 3rem;
             flex-direction: column;
             justify-content: space-evenly;
@@ -78,7 +78,7 @@
             border-bottom: .2rem solid #fff;
             padding-bottom: 1rem;
         }
-        @include respond (tab-land) {
+        @include respond (tab-port) {
             color: #fff;
         }
     }
@@ -91,7 +91,7 @@
     z-index: 19;
     margin-top: 2rem;
 
-    @include respond (tab-land) {
+    @include respond (tab-port) {
         display: block;
     }
 }
