@@ -228,6 +228,7 @@ body {
   grid-gap: .5rem;
   justify-items: center; }
   .tool__icon {
+    fill: #0c7275;
     text-align: center;
     width: 4rem;
     height: 4rem;
