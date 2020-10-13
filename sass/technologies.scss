@@ -6,8 +6,8 @@
     grid-column: col-start 1 / col-end;
 
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
-    grid-gap: 5rem;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    grid-gap: 3rem;
     font-size: 1.6rem;
     padding: 5rem 5rem -5rem 5rem;  
     
