@@ -1,3 +1,6 @@
+//strict mode 
+'use strict';
+
 // Variables
 const navLinks = document.querySelector('.nav__item');
 const hamburger = document.querySelector('.lines');
